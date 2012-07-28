@@ -38,24 +38,29 @@
             this.fluxoDeCaixaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contasAPagarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.criarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaContasAPagarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contasAReceberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.criarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaContasAReceberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.caixaBancoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.movimentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aplicacaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.relatoriosContasAPagarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatoriosContasAReceberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatoriosCaixaBancoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aplicacoesAPrazoFixoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fundoDeAplicacaoFinanceiraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.utilitariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tablessControl1 = new TablessControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label_branch_miguel = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -78,11 +83,13 @@
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage13 = new System.Windows.Forms.TabPage();
             this.label7 = new System.Windows.Forms.Label();
-            this.label_branch_miguel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage1Button1 = new System.Windows.Forms.Button();
+            this.tabPage1Button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tablessControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -94,6 +101,7 @@
             this.tabPage11.SuspendLayout();
             this.tabPage12.SuspendLayout();
             this.tabPage13.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // cadastroToolStripMenuItem
@@ -128,14 +136,14 @@
             // 
             this.moedaIndeToolStripMenuItem.Name = "moedaIndeToolStripMenuItem";
             this.moedaIndeToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.moedaIndeToolStripMenuItem.Text = "Moeda/Indices";
+            this.moedaIndeToolStripMenuItem.Text = "Moedas/Indices";
             this.moedaIndeToolStripMenuItem.Click += new System.EventHandler(this.moedaIndeToolStripMenuItem_Click);
             // 
             // centroDeCustosToolStripMenuItem
             // 
             this.centroDeCustosToolStripMenuItem.Name = "centroDeCustosToolStripMenuItem";
             this.centroDeCustosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.centroDeCustosToolStripMenuItem.Text = "Centro de Custos";
+            this.centroDeCustosToolStripMenuItem.Text = "Centro de Custo";
             this.centroDeCustosToolStripMenuItem.Click += new System.EventHandler(this.centroDeCustosToolStripMenuItem_Click);
             // 
             // portadorToolStripMenuItem
@@ -149,7 +157,7 @@
             // 
             this.operacoesToolStripMenuItem.Name = "operacoesToolStripMenuItem";
             this.operacoesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.operacoesToolStripMenuItem.Text = "Operacoes";
+            this.operacoesToolStripMenuItem.Text = "Operações";
             this.operacoesToolStripMenuItem.Click += new System.EventHandler(this.operacoesToolStripMenuItem_Click);
             // 
             // fluxoDeCaixaToolStripMenuItem
@@ -163,52 +171,55 @@
             // 
             this.contasAPagarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.criarToolStripMenuItem,
-            this.consultarToolStripMenuItem});
+            this.consultaContasAPagarToolStripMenuItem,
+            this.relatoriosContasAPagarToolStripMenuItem});
             this.contasAPagarToolStripMenuItem.Name = "contasAPagarToolStripMenuItem";
             this.contasAPagarToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
-            this.contasAPagarToolStripMenuItem.Text = "Contas a pagar";
+            this.contasAPagarToolStripMenuItem.Text = "Contas a Pagar";
             // 
             // criarToolStripMenuItem
             // 
             this.criarToolStripMenuItem.Name = "criarToolStripMenuItem";
-            this.criarToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.criarToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.criarToolStripMenuItem.Text = "Criar...";
             this.criarToolStripMenuItem.Click += new System.EventHandler(this.criarToolStripMenuItem_Click);
             // 
-            // consultarToolStripMenuItem
+            // consultaContasAPagarToolStripMenuItem
             // 
-            this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
-            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
-            this.consultarToolStripMenuItem.Text = "Consultar";
-            this.consultarToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem_Click);
+            this.consultaContasAPagarToolStripMenuItem.Name = "consultaContasAPagarToolStripMenuItem";
+            this.consultaContasAPagarToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.consultaContasAPagarToolStripMenuItem.Text = "Consulta/Manutenção";
+            this.consultaContasAPagarToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem_Click);
             // 
             // contasAReceberToolStripMenuItem
             // 
             this.contasAReceberToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.criarToolStripMenuItem1,
-            this.consultarToolStripMenuItem1});
+            this.consultaContasAReceberToolStripMenuItem,
+            this.relatoriosContasAReceberToolStripMenuItem});
             this.contasAReceberToolStripMenuItem.Name = "contasAReceberToolStripMenuItem";
-            this.contasAReceberToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
-            this.contasAReceberToolStripMenuItem.Text = "Contas A Receber";
+            this.contasAReceberToolStripMenuItem.Size = new System.Drawing.Size(105, 20);
+            this.contasAReceberToolStripMenuItem.Text = "Contas a Receber";
             // 
             // criarToolStripMenuItem1
             // 
             this.criarToolStripMenuItem1.Name = "criarToolStripMenuItem1";
-            this.criarToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
+            this.criarToolStripMenuItem1.Size = new System.Drawing.Size(179, 22);
             this.criarToolStripMenuItem1.Text = "Criar...";
             this.criarToolStripMenuItem1.Click += new System.EventHandler(this.criarToolStripMenuItem1_Click);
             // 
-            // consultarToolStripMenuItem1
+            // consultaContasAReceberToolStripMenuItem
             // 
-            this.consultarToolStripMenuItem1.Name = "consultarToolStripMenuItem1";
-            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
-            this.consultarToolStripMenuItem1.Text = "Consultar";
-            this.consultarToolStripMenuItem1.Click += new System.EventHandler(this.consultarToolStripMenuItem1_Click);
+            this.consultaContasAReceberToolStripMenuItem.Name = "consultaContasAReceberToolStripMenuItem";
+            this.consultaContasAReceberToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.consultaContasAReceberToolStripMenuItem.Text = "Consulta/Manutenção";
+            this.consultaContasAReceberToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem1_Click);
             // 
             // caixaBancoToolStripMenuItem
             // 
             this.caixaBancoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.movimentoToolStripMenuItem});
+            this.movimentoToolStripMenuItem,
+            this.relatoriosCaixaBancoToolStripMenuItem});
             this.caixaBancoToolStripMenuItem.Name = "caixaBancoToolStripMenuItem";
             this.caixaBancoToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.caixaBancoToolStripMenuItem.Text = "Caixa/Banco";
@@ -216,15 +227,18 @@
             // movimentoToolStripMenuItem
             // 
             this.movimentoToolStripMenuItem.Name = "movimentoToolStripMenuItem";
-            this.movimentoToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
-            this.movimentoToolStripMenuItem.Text = "Movimento";
+            this.movimentoToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.movimentoToolStripMenuItem.Text = "Movimentos";
             this.movimentoToolStripMenuItem.Click += new System.EventHandler(this.movimentoToolStripMenuItem_Click);
             // 
             // aplicacaoToolStripMenuItem
             // 
+            this.aplicacaoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aplicacoesAPrazoFixoToolStripMenuItem,
+            this.fundoDeAplicacaoFinanceiraToolStripMenuItem});
             this.aplicacaoToolStripMenuItem.Name = "aplicacaoToolStripMenuItem";
-            this.aplicacaoToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.aplicacaoToolStripMenuItem.Text = "Aplicacao";
+            this.aplicacaoToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.aplicacaoToolStripMenuItem.Text = "Aplicações";
             // 
             // relatoriosToolStripMenuItem
             // 
@@ -240,6 +254,7 @@
             this.contasAReceberToolStripMenuItem,
             this.caixaBancoToolStripMenuItem,
             this.aplicacaoToolStripMenuItem,
+            this.utilitariosToolStripMenuItem,
             this.relatoriosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -247,10 +262,45 @@
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // relatoriosContasAPagarToolStripMenuItem
+            // 
+            this.relatoriosContasAPagarToolStripMenuItem.Name = "relatoriosContasAPagarToolStripMenuItem";
+            this.relatoriosContasAPagarToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.relatoriosContasAPagarToolStripMenuItem.Text = "Relatórios";
+            // 
+            // relatoriosContasAReceberToolStripMenuItem
+            // 
+            this.relatoriosContasAReceberToolStripMenuItem.Name = "relatoriosContasAReceberToolStripMenuItem";
+            this.relatoriosContasAReceberToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.relatoriosContasAReceberToolStripMenuItem.Text = "Relatórios";
+            // 
+            // relatoriosCaixaBancoToolStripMenuItem
+            // 
+            this.relatoriosCaixaBancoToolStripMenuItem.Name = "relatoriosCaixaBancoToolStripMenuItem";
+            this.relatoriosCaixaBancoToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.relatoriosCaixaBancoToolStripMenuItem.Text = "Relatórios";
+            // 
+            // aplicacoesAPrazoFixoToolStripMenuItem
+            // 
+            this.aplicacoesAPrazoFixoToolStripMenuItem.Name = "aplicacoesAPrazoFixoToolStripMenuItem";
+            this.aplicacoesAPrazoFixoToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.aplicacoesAPrazoFixoToolStripMenuItem.Text = "Aplicações a Prazo Fixo";
+            // 
+            // fundoDeAplicacaoFinanceiraToolStripMenuItem
+            // 
+            this.fundoDeAplicacaoFinanceiraToolStripMenuItem.Name = "fundoDeAplicacaoFinanceiraToolStripMenuItem";
+            this.fundoDeAplicacaoFinanceiraToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.fundoDeAplicacaoFinanceiraToolStripMenuItem.Text = "Fundo de Aplicação Financeira";
+            // 
+            // utilitariosToolStripMenuItem
+            // 
+            this.utilitariosToolStripMenuItem.Name = "utilitariosToolStripMenuItem";
+            this.utilitariosToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.utilitariosToolStripMenuItem.Text = "Utilitários";
+            // 
             // tablessControl1
             // 
             this.tablessControl1.Controls.Add(this.tabPage3);
-            this.tablessControl1.Controls.Add(this.tabPage1);
             this.tablessControl1.Controls.Add(this.tabPage2);
             this.tablessControl1.Controls.Add(this.tabPage4);
             this.tablessControl1.Controls.Add(this.tabPage5);
@@ -262,6 +312,7 @@
             this.tablessControl1.Controls.Add(this.tabPage11);
             this.tablessControl1.Controls.Add(this.tabPage12);
             this.tablessControl1.Controls.Add(this.tabPage13);
+            this.tablessControl1.Controls.Add(this.tabPage1);
             this.tablessControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tablessControl1.Location = new System.Drawing.Point(0, 24);
             this.tablessControl1.Multiline = true;
@@ -285,6 +336,15 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Pagina Inicial";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label_branch_miguel
+            // 
+            this.label_branch_miguel.AutoSize = true;
+            this.label_branch_miguel.Location = new System.Drawing.Point(374, 100);
+            this.label_branch_miguel.Name = "label_branch_miguel";
+            this.label_branch_miguel.Size = new System.Drawing.Size(183, 13);
+            this.label_branch_miguel.TabIndex = 5;
+            this.label_branch_miguel.Text = "modificação feita na branch miguel....";
             // 
             // label8
             // 
@@ -332,34 +392,14 @@
             this.label14.TabIndex = 0;
             this.label14.Text = "Este é um teste para verificar as funcionalidades de:";
             // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.White;
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 58);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(784, 520);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Cadastro -> Clientes / Fornecedores";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(138, 110);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Cadastro -> Clientes / Fornecedores";
-            // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.White;
             this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 58);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(784, 520);
+            this.tabPage2.Size = new System.Drawing.Size(784, 556);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Cadastro ->  Bancos";
             // 
@@ -375,10 +415,10 @@
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.label3);
-            this.tabPage4.Location = new System.Drawing.Point(4, 58);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(784, 520);
+            this.tabPage4.Size = new System.Drawing.Size(784, 556);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Cadastro -> Moedas / Indices";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -395,10 +435,10 @@
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.label4);
-            this.tabPage5.Location = new System.Drawing.Point(4, 58);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(784, 520);
+            this.tabPage5.Size = new System.Drawing.Size(784, 556);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Cadastro -> Centro de Custo";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -415,10 +455,10 @@
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.label5);
-            this.tabPage6.Location = new System.Drawing.Point(4, 58);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(784, 520);
+            this.tabPage6.Size = new System.Drawing.Size(784, 556);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Cadastro -> Portador";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -435,10 +475,10 @@
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.label18);
-            this.tabPage7.Location = new System.Drawing.Point(4, 58);
+            this.tabPage7.Location = new System.Drawing.Point(4, 40);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(784, 520);
+            this.tabPage7.Size = new System.Drawing.Size(784, 538);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Cadastro -> Operações";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -455,10 +495,10 @@
             // tabPage8
             // 
             this.tabPage8.Controls.Add(this.label19);
-            this.tabPage8.Location = new System.Drawing.Point(4, 58);
+            this.tabPage8.Location = new System.Drawing.Point(4, 40);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(784, 520);
+            this.tabPage8.Size = new System.Drawing.Size(784, 538);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Cadastro -> Fluxo de Caixa";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -475,9 +515,9 @@
             // tabPage9
             // 
             this.tabPage9.Controls.Add(this.label20);
-            this.tabPage9.Location = new System.Drawing.Point(4, 58);
+            this.tabPage9.Location = new System.Drawing.Point(4, 40);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(784, 520);
+            this.tabPage9.Size = new System.Drawing.Size(784, 538);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Contas a Pagar -> Criar";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -494,9 +534,9 @@
             // tabPage10
             // 
             this.tabPage10.Controls.Add(this.label21);
-            this.tabPage10.Location = new System.Drawing.Point(4, 58);
+            this.tabPage10.Location = new System.Drawing.Point(4, 40);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(784, 520);
+            this.tabPage10.Size = new System.Drawing.Size(784, 538);
             this.tabPage10.TabIndex = 9;
             this.tabPage10.Text = "Contas a Pagar ->  Consultar";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -513,9 +553,9 @@
             // tabPage11
             // 
             this.tabPage11.Controls.Add(this.label22);
-            this.tabPage11.Location = new System.Drawing.Point(4, 58);
+            this.tabPage11.Location = new System.Drawing.Point(4, 40);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(784, 520);
+            this.tabPage11.Size = new System.Drawing.Size(784, 538);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "Contas a Receber -> Criar";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -567,14 +607,45 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "Caixa / Banco -> Movimentos";
             // 
-            // label_branch_miguel
+            // label1
             // 
-            this.label_branch_miguel.AutoSize = true;
-            this.label_branch_miguel.Location = new System.Drawing.Point(374, 100);
-            this.label_branch_miguel.Name = "label_branch_miguel";
-            this.label_branch_miguel.Size = new System.Drawing.Size(183, 13);
-            this.label_branch_miguel.TabIndex = 5;
-            this.label_branch_miguel.Text = "modificação feita na branch miguel....";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(177, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Cadastro -> Clientes / Fornecedores";
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.tabPage1.Controls.Add(this.tabPage1Button2);
+            this.tabPage1.Controls.Add(this.tabPage1Button1);
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 58);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(784, 520);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Cadastro -> Clientes / Fornecedores";
+            // 
+            // tabPage1Button1
+            // 
+            this.tabPage1Button1.Location = new System.Drawing.Point(47, 47);
+            this.tabPage1Button1.Name = "tabPage1Button1";
+            this.tabPage1Button1.Size = new System.Drawing.Size(136, 35);
+            this.tabPage1Button1.TabIndex = 2;
+            this.tabPage1Button1.Text = "Consulta/Manutenção";
+            this.tabPage1Button1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage1Button2
+            // 
+            this.tabPage1Button2.Location = new System.Drawing.Point(47, 101);
+            this.tabPage1Button2.Name = "tabPage1Button2";
+            this.tabPage1Button2.Size = new System.Drawing.Size(136, 35);
+            this.tabPage1Button2.TabIndex = 3;
+            this.tabPage1Button2.Text = "Relatórios";
+            this.tabPage1Button2.UseVisualStyleBackColor = true;
             // 
             // FrmPrincipal
             // 
@@ -591,8 +662,6 @@
             this.tablessControl1.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage4.ResumeLayout(false);
@@ -615,6 +684,8 @@
             this.tabPage12.PerformLayout();
             this.tabPage13.ResumeLayout(false);
             this.tabPage13.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -632,17 +703,16 @@
         private System.Windows.Forms.ToolStripMenuItem fluxoDeCaixaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contasAPagarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem criarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultaContasAPagarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contasAReceberToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem criarToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem consultaContasAReceberToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem caixaBancoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem movimentoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aplicacaoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem relatoriosToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private TablessControl tablessControl1;
-        private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Label label15;
@@ -659,7 +729,6 @@
         private System.Windows.Forms.TabPage tabPage11;
         private System.Windows.Forms.TabPage tabPage12;
         private System.Windows.Forms.TabPage tabPage13;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -673,6 +742,16 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label_branch_miguel;
+        private System.Windows.Forms.ToolStripMenuItem relatoriosContasAPagarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem relatoriosContasAReceberToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem relatoriosCaixaBancoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aplicacoesAPrazoFixoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fundoDeAplicacaoFinanceiraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem utilitariosToolStripMenuItem;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Button tabPage1Button2;
+        private System.Windows.Forms.Button tabPage1Button1;
+        private System.Windows.Forms.Label label1;
 
 
     }
