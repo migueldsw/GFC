@@ -49,6 +49,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tablessControl1 = new TablessControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label8 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -77,7 +78,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage13 = new System.Windows.Forms.TabPage();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.label_branch_miguel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.tablessControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -170,14 +171,14 @@
             // criarToolStripMenuItem
             // 
             this.criarToolStripMenuItem.Name = "criarToolStripMenuItem";
-            this.criarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.criarToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.criarToolStripMenuItem.Text = "Criar...";
             this.criarToolStripMenuItem.Click += new System.EventHandler(this.criarToolStripMenuItem_Click);
             // 
             // consultarToolStripMenuItem
             // 
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
-            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.consultarToolStripMenuItem.Text = "Consultar";
             this.consultarToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem_Click);
             // 
@@ -193,14 +194,14 @@
             // criarToolStripMenuItem1
             // 
             this.criarToolStripMenuItem1.Name = "criarToolStripMenuItem1";
-            this.criarToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.criarToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
             this.criarToolStripMenuItem1.Text = "Criar...";
             this.criarToolStripMenuItem1.Click += new System.EventHandler(this.criarToolStripMenuItem1_Click);
             // 
             // consultarToolStripMenuItem1
             // 
             this.consultarToolStripMenuItem1.Name = "consultarToolStripMenuItem1";
-            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
             this.consultarToolStripMenuItem1.Text = "Consultar";
             this.consultarToolStripMenuItem1.Click += new System.EventHandler(this.consultarToolStripMenuItem1_Click);
             // 
@@ -215,7 +216,7 @@
             // movimentoToolStripMenuItem
             // 
             this.movimentoToolStripMenuItem.Name = "movimentoToolStripMenuItem";
-            this.movimentoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.movimentoToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.movimentoToolStripMenuItem.Text = "Movimento";
             this.movimentoToolStripMenuItem.Click += new System.EventHandler(this.movimentoToolStripMenuItem_Click);
             // 
@@ -271,6 +272,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label_branch_miguel);
             this.tabPage3.Controls.Add(this.label8);
             this.tabPage3.Controls.Add(this.label17);
             this.tabPage3.Controls.Add(this.label16);
@@ -283,6 +285,15 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Pagina Inicial";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(374, 53);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(60, 13);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "branch test";
             // 
             // label17
             // 
@@ -556,14 +567,14 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "Caixa / Banco -> Movimentos";
             // 
-            // label8
+            // label_branch_miguel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(374, 53);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 13);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "branch test";
+            this.label_branch_miguel.AutoSize = true;
+            this.label_branch_miguel.Location = new System.Drawing.Point(374, 100);
+            this.label_branch_miguel.Name = "label_branch_miguel";
+            this.label_branch_miguel.Size = new System.Drawing.Size(183, 13);
+            this.label_branch_miguel.TabIndex = 5;
+            this.label_branch_miguel.Text = "modificação feita na branch miguel....";
             // 
             // FrmPrincipal
             // 
@@ -661,6 +672,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label_branch_miguel;
 
 
     }
