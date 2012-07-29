@@ -49,12 +49,46 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tablessControl1 = new TablessControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label8 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresPanelConsultaManutencao = new System.Windows.Forms.Panel();
+            this.CadastroClientesFornecedoresComboBox3 = new System.Windows.Forms.ComboBox();
+            this.CadastroClientesFornecedoresComboBox2 = new System.Windows.Forms.ComboBox();
+            this.CadastroClientesFornecedoresComboBox1 = new System.Windows.Forms.ComboBox();
+            this.CadastroClientesFornecedoresButton6 = new System.Windows.Forms.Button();
+            this.CadastroClientesFornecedoresButton5 = new System.Windows.Forms.Button();
+            this.CadastroClientesFornecedoresTextBox1 = new System.Windows.Forms.TextBox();
+            this.CadastroClientesFornecedoresButton4 = new System.Windows.Forms.Button();
+            this.CadastroClientesFornecedoresLabel4 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresLabel5 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresLabel3 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresLabel2 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresTextBox5 = new System.Windows.Forms.TextBox();
+            this.CadastroClientesFornecedoresTextBox4 = new System.Windows.Forms.TextBox();
+            this.CadastroClientesFornecedoresLabel9 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresLabel8 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresLabel1 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresButton3 = new System.Windows.Forms.Button();
+            this.CadastroClientesFornecedoresTextBox3 = new System.Windows.Forms.TextBox();
+            this.CadastroClientesFornecedoresTextBox2 = new System.Windows.Forms.TextBox();
+            this.CadastroClientesFornecedoresDataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pessoa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CPF = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CGC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CadastroClientesFornecedoresLabel7 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresButton1 = new System.Windows.Forms.Button();
+            this.CadastroClientesFornecedoresLabel6 = new System.Windows.Forms.Label();
+            this.CadastroClientesFornecedoresButton2 = new System.Windows.Forms.Button();
+            this.cadastroClienteFornecedoresButton2 = new System.Windows.Forms.Button();
+            this.cadastroClienteFornecedoresLabel1 = new System.Windows.Forms.Label();
+            this.cadastroClienteFornecedoresButton1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -77,11 +111,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage13 = new System.Windows.Forms.TabPage();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.tablessControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CadastroClientesFornecedoresDataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -170,14 +205,14 @@
             // criarToolStripMenuItem
             // 
             this.criarToolStripMenuItem.Name = "criarToolStripMenuItem";
-            this.criarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.criarToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.criarToolStripMenuItem.Text = "Criar...";
             this.criarToolStripMenuItem.Click += new System.EventHandler(this.criarToolStripMenuItem_Click);
             // 
             // consultarToolStripMenuItem
             // 
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
-            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.consultarToolStripMenuItem.Text = "Consultar";
             this.consultarToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem_Click);
             // 
@@ -193,14 +228,14 @@
             // criarToolStripMenuItem1
             // 
             this.criarToolStripMenuItem1.Name = "criarToolStripMenuItem1";
-            this.criarToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.criarToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
             this.criarToolStripMenuItem1.Text = "Criar...";
             this.criarToolStripMenuItem1.Click += new System.EventHandler(this.criarToolStripMenuItem1_Click);
             // 
             // consultarToolStripMenuItem1
             // 
             this.consultarToolStripMenuItem1.Name = "consultarToolStripMenuItem1";
-            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
             this.consultarToolStripMenuItem1.Text = "Consultar";
             this.consultarToolStripMenuItem1.Click += new System.EventHandler(this.consultarToolStripMenuItem1_Click);
             // 
@@ -215,7 +250,7 @@
             // movimentoToolStripMenuItem
             // 
             this.movimentoToolStripMenuItem.Name = "movimentoToolStripMenuItem";
-            this.movimentoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.movimentoToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.movimentoToolStripMenuItem.Text = "Movimento";
             this.movimentoToolStripMenuItem.Click += new System.EventHandler(this.movimentoToolStripMenuItem_Click);
             // 
@@ -284,6 +319,15 @@
             this.tabPage3.Text = "Pagina Inicial";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(374, 53);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(60, 13);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "branch test";
+            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -323,8 +367,11 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.White;
-            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.tabPage1.Controls.Add(this.CadastroClientesFornecedoresPanelConsultaManutencao);
+            this.tabPage1.Controls.Add(this.cadastroClienteFornecedoresButton2);
+            this.tabPage1.Controls.Add(this.cadastroClienteFornecedoresLabel1);
+            this.tabPage1.Controls.Add(this.cadastroClienteFornecedoresButton1);
             this.tabPage1.Location = new System.Drawing.Point(4, 58);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -332,14 +379,317 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Cadastro -> Clientes / Fornecedores";
             // 
-            // label1
+            // CadastroClientesFornecedoresPanelConsultaManutencao
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(138, 110);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Cadastro -> Clientes / Fornecedores";
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresComboBox3);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresComboBox2);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresComboBox1);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresButton6);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresButton5);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresTextBox1);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresButton4);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresLabel4);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresLabel5);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresLabel3);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresLabel2);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresTextBox5);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresTextBox4);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresLabel9);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresLabel8);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresLabel1);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresButton3);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresTextBox3);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresTextBox2);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresDataGridView1);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresLabel7);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresButton1);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresLabel6);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Controls.Add(this.CadastroClientesFornecedoresButton2);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Location = new System.Drawing.Point(11, 35);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Name = "CadastroClientesFornecedoresPanelConsultaManutencao";
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.Size = new System.Drawing.Size(765, 412);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.TabIndex = 12;
+            // 
+            // CadastroClientesFornecedoresComboBox3
+            // 
+            this.CadastroClientesFornecedoresComboBox3.FormattingEnabled = true;
+            this.CadastroClientesFornecedoresComboBox3.Items.AddRange(new object[] {
+            "Todos",
+            "Clientes",
+            "Fornecedores"});
+            this.CadastroClientesFornecedoresComboBox3.Location = new System.Drawing.Point(82, 359);
+            this.CadastroClientesFornecedoresComboBox3.Name = "CadastroClientesFornecedoresComboBox3";
+            this.CadastroClientesFornecedoresComboBox3.Size = new System.Drawing.Size(121, 21);
+            this.CadastroClientesFornecedoresComboBox3.TabIndex = 30;
+            this.CadastroClientesFornecedoresComboBox3.Text = "Todos";
+            // 
+            // CadastroClientesFornecedoresComboBox2
+            // 
+            this.CadastroClientesFornecedoresComboBox2.FormattingEnabled = true;
+            this.CadastroClientesFornecedoresComboBox2.Items.AddRange(new object[] {
+            "Todas",
+            "Física",
+            "Jurídica"});
+            this.CadastroClientesFornecedoresComboBox2.Location = new System.Drawing.Point(82, 332);
+            this.CadastroClientesFornecedoresComboBox2.Name = "CadastroClientesFornecedoresComboBox2";
+            this.CadastroClientesFornecedoresComboBox2.Size = new System.Drawing.Size(121, 21);
+            this.CadastroClientesFornecedoresComboBox2.TabIndex = 29;
+            this.CadastroClientesFornecedoresComboBox2.Text = "Todas";
+            // 
+            // CadastroClientesFornecedoresComboBox1
+            // 
+            this.CadastroClientesFornecedoresComboBox1.FormattingEnabled = true;
+            this.CadastroClientesFornecedoresComboBox1.Items.AddRange(new object[] {
+            "Código",
+            "Nome"});
+            this.CadastroClientesFornecedoresComboBox1.Location = new System.Drawing.Point(82, 305);
+            this.CadastroClientesFornecedoresComboBox1.Name = "CadastroClientesFornecedoresComboBox1";
+            this.CadastroClientesFornecedoresComboBox1.Size = new System.Drawing.Size(121, 21);
+            this.CadastroClientesFornecedoresComboBox1.TabIndex = 28;
+            this.CadastroClientesFornecedoresComboBox1.Text = "Código";
+            // 
+            // CadastroClientesFornecedoresButton6
+            // 
+            this.CadastroClientesFornecedoresButton6.Location = new System.Drawing.Point(498, 5);
+            this.CadastroClientesFornecedoresButton6.Name = "CadastroClientesFornecedoresButton6";
+            this.CadastroClientesFornecedoresButton6.Size = new System.Drawing.Size(135, 23);
+            this.CadastroClientesFornecedoresButton6.TabIndex = 27;
+            this.CadastroClientesFornecedoresButton6.Text = "Pesquisa Nome";
+            this.CadastroClientesFornecedoresButton6.UseVisualStyleBackColor = true;
+            // 
+            // CadastroClientesFornecedoresButton5
+            // 
+            this.CadastroClientesFornecedoresButton5.Location = new System.Drawing.Point(357, 5);
+            this.CadastroClientesFornecedoresButton5.Name = "CadastroClientesFornecedoresButton5";
+            this.CadastroClientesFornecedoresButton5.Size = new System.Drawing.Size(135, 23);
+            this.CadastroClientesFornecedoresButton5.TabIndex = 26;
+            this.CadastroClientesFornecedoresButton5.Text = "Pesquisa Codigo";
+            this.CadastroClientesFornecedoresButton5.UseVisualStyleBackColor = true;
+            // 
+            // CadastroClientesFornecedoresTextBox1
+            // 
+            this.CadastroClientesFornecedoresTextBox1.Location = new System.Drawing.Point(177, 7);
+            this.CadastroClientesFornecedoresTextBox1.Name = "CadastroClientesFornecedoresTextBox1";
+            this.CadastroClientesFornecedoresTextBox1.Size = new System.Drawing.Size(174, 20);
+            this.CadastroClientesFornecedoresTextBox1.TabIndex = 25;
+            // 
+            // CadastroClientesFornecedoresButton4
+            // 
+            this.CadastroClientesFornecedoresButton4.Location = new System.Drawing.Point(668, 356);
+            this.CadastroClientesFornecedoresButton4.Name = "CadastroClientesFornecedoresButton4";
+            this.CadastroClientesFornecedoresButton4.Size = new System.Drawing.Size(91, 23);
+            this.CadastroClientesFornecedoresButton4.TabIndex = 24;
+            this.CadastroClientesFornecedoresButton4.Text = "OK";
+            this.CadastroClientesFornecedoresButton4.UseVisualStyleBackColor = true;
+            // 
+            // CadastroClientesFornecedoresLabel4
+            // 
+            this.CadastroClientesFornecedoresLabel4.AutoSize = true;
+            this.CadastroClientesFornecedoresLabel4.Location = new System.Drawing.Point(13, 333);
+            this.CadastroClientesFornecedoresLabel4.Name = "CadastroClientesFornecedoresLabel4";
+            this.CadastroClientesFornecedoresLabel4.Size = new System.Drawing.Size(70, 13);
+            this.CadastroClientesFornecedoresLabel4.TabIndex = 23;
+            this.CadastroClientesFornecedoresLabel4.Text = "Exibir Pessoa";
+            // 
+            // CadastroClientesFornecedoresLabel5
+            // 
+            this.CadastroClientesFornecedoresLabel5.AutoSize = true;
+            this.CadastroClientesFornecedoresLabel5.Location = new System.Drawing.Point(13, 361);
+            this.CadastroClientesFornecedoresLabel5.Name = "CadastroClientesFornecedoresLabel5";
+            this.CadastroClientesFornecedoresLabel5.Size = new System.Drawing.Size(56, 13);
+            this.CadastroClientesFornecedoresLabel5.TabIndex = 21;
+            this.CadastroClientesFornecedoresLabel5.Text = "Exibir Tipo";
+            // 
+            // CadastroClientesFornecedoresLabel3
+            // 
+            this.CadastroClientesFornecedoresLabel3.AutoSize = true;
+            this.CadastroClientesFornecedoresLabel3.Location = new System.Drawing.Point(13, 305);
+            this.CadastroClientesFornecedoresLabel3.Name = "CadastroClientesFornecedoresLabel3";
+            this.CadastroClientesFornecedoresLabel3.Size = new System.Drawing.Size(63, 13);
+            this.CadastroClientesFornecedoresLabel3.TabIndex = 19;
+            this.CadastroClientesFornecedoresLabel3.Text = "Ordenar por";
+            // 
+            // CadastroClientesFornecedoresLabel2
+            // 
+            this.CadastroClientesFornecedoresLabel2.AutoSize = true;
+            this.CadastroClientesFornecedoresLabel2.Location = new System.Drawing.Point(13, 282);
+            this.CadastroClientesFornecedoresLabel2.Name = "CadastroClientesFornecedoresLabel2";
+            this.CadastroClientesFornecedoresLabel2.Size = new System.Drawing.Size(57, 13);
+            this.CadastroClientesFornecedoresLabel2.TabIndex = 18;
+            this.CadastroClientesFornecedoresLabel2.Text = "Selecionar";
+            // 
+            // CadastroClientesFornecedoresTextBox5
+            // 
+            this.CadastroClientesFornecedoresTextBox5.Location = new System.Drawing.Point(465, 358);
+            this.CadastroClientesFornecedoresTextBox5.Name = "CadastroClientesFornecedoresTextBox5";
+            this.CadastroClientesFornecedoresTextBox5.Size = new System.Drawing.Size(174, 20);
+            this.CadastroClientesFornecedoresTextBox5.TabIndex = 17;
+            // 
+            // CadastroClientesFornecedoresTextBox4
+            // 
+            this.CadastroClientesFornecedoresTextBox4.Location = new System.Drawing.Point(274, 358);
+            this.CadastroClientesFornecedoresTextBox4.Name = "CadastroClientesFornecedoresTextBox4";
+            this.CadastroClientesFornecedoresTextBox4.Size = new System.Drawing.Size(174, 20);
+            this.CadastroClientesFornecedoresTextBox4.TabIndex = 16;
+            // 
+            // CadastroClientesFornecedoresLabel9
+            // 
+            this.CadastroClientesFornecedoresLabel9.AutoSize = true;
+            this.CadastroClientesFornecedoresLabel9.Location = new System.Drawing.Point(462, 342);
+            this.CadastroClientesFornecedoresLabel9.Name = "CadastroClientesFornecedoresLabel9";
+            this.CadastroClientesFornecedoresLabel9.Size = new System.Drawing.Size(60, 13);
+            this.CadastroClientesFornecedoresLabel9.TabIndex = 15;
+            this.CadastroClientesFornecedoresLabel9.Text = "Nome Final";
+            // 
+            // CadastroClientesFornecedoresLabel8
+            // 
+            this.CadastroClientesFornecedoresLabel8.AutoSize = true;
+            this.CadastroClientesFornecedoresLabel8.Location = new System.Drawing.Point(271, 342);
+            this.CadastroClientesFornecedoresLabel8.Name = "CadastroClientesFornecedoresLabel8";
+            this.CadastroClientesFornecedoresLabel8.Size = new System.Drawing.Size(65, 13);
+            this.CadastroClientesFornecedoresLabel8.TabIndex = 14;
+            this.CadastroClientesFornecedoresLabel8.Text = "Nome Inicial";
+            // 
+            // CadastroClientesFornecedoresLabel1
+            // 
+            this.CadastroClientesFornecedoresLabel1.AutoSize = true;
+            this.CadastroClientesFornecedoresLabel1.Location = new System.Drawing.Point(13, 10);
+            this.CadastroClientesFornecedoresLabel1.Name = "CadastroClientesFornecedoresLabel1";
+            this.CadastroClientesFornecedoresLabel1.Size = new System.Drawing.Size(113, 13);
+            this.CadastroClientesFornecedoresLabel1.TabIndex = 12;
+            this.CadastroClientesFornecedoresLabel1.Text = "Consulta/Manutenção";
+            // 
+            // CadastroClientesFornecedoresButton3
+            // 
+            this.CadastroClientesFornecedoresButton3.Location = new System.Drawing.Point(669, 148);
+            this.CadastroClientesFornecedoresButton3.Name = "CadastroClientesFornecedoresButton3";
+            this.CadastroClientesFornecedoresButton3.Size = new System.Drawing.Size(90, 23);
+            this.CadastroClientesFornecedoresButton3.TabIndex = 7;
+            this.CadastroClientesFornecedoresButton3.Text = "Excluir";
+            this.CadastroClientesFornecedoresButton3.UseVisualStyleBackColor = true;
+            // 
+            // CadastroClientesFornecedoresTextBox3
+            // 
+            this.CadastroClientesFornecedoresTextBox3.Location = new System.Drawing.Point(465, 312);
+            this.CadastroClientesFornecedoresTextBox3.Name = "CadastroClientesFornecedoresTextBox3";
+            this.CadastroClientesFornecedoresTextBox3.Size = new System.Drawing.Size(174, 20);
+            this.CadastroClientesFornecedoresTextBox3.TabIndex = 11;
+            // 
+            // CadastroClientesFornecedoresTextBox2
+            // 
+            this.CadastroClientesFornecedoresTextBox2.Location = new System.Drawing.Point(274, 312);
+            this.CadastroClientesFornecedoresTextBox2.Name = "CadastroClientesFornecedoresTextBox2";
+            this.CadastroClientesFornecedoresTextBox2.Size = new System.Drawing.Size(174, 20);
+            this.CadastroClientesFornecedoresTextBox2.TabIndex = 10;
+            // 
+            // CadastroClientesFornecedoresDataGridView1
+            // 
+            this.CadastroClientesFornecedoresDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.CadastroClientesFornecedoresDataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Codigo,
+            this.Nome,
+            this.Tipo,
+            this.Pessoa,
+            this.CPF,
+            this.CGC});
+            this.CadastroClientesFornecedoresDataGridView1.Location = new System.Drawing.Point(14, 37);
+            this.CadastroClientesFornecedoresDataGridView1.Name = "CadastroClientesFornecedoresDataGridView1";
+            this.CadastroClientesFornecedoresDataGridView1.Size = new System.Drawing.Size(645, 242);
+            this.CadastroClientesFornecedoresDataGridView1.TabIndex = 4;
+            this.CadastroClientesFornecedoresDataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Codigo
+            // 
+            this.Codigo.HeaderText = "Código";
+            this.Codigo.Name = "Codigo";
+            // 
+            // Nome
+            // 
+            this.Nome.HeaderText = "Nome";
+            this.Nome.Name = "Nome";
+            // 
+            // Tipo
+            // 
+            this.Tipo.HeaderText = "Tipo";
+            this.Tipo.Name = "Tipo";
+            // 
+            // Pessoa
+            // 
+            this.Pessoa.HeaderText = "Pessoa";
+            this.Pessoa.Name = "Pessoa";
+            // 
+            // CPF
+            // 
+            this.CPF.HeaderText = "CPF";
+            this.CPF.Name = "CPF";
+            // 
+            // CGC
+            // 
+            this.CGC.HeaderText = "CGC";
+            this.CGC.Name = "CGC";
+            // 
+            // CadastroClientesFornecedoresLabel7
+            // 
+            this.CadastroClientesFornecedoresLabel7.AutoSize = true;
+            this.CadastroClientesFornecedoresLabel7.Location = new System.Drawing.Point(462, 296);
+            this.CadastroClientesFornecedoresLabel7.Name = "CadastroClientesFornecedoresLabel7";
+            this.CadastroClientesFornecedoresLabel7.Size = new System.Drawing.Size(65, 13);
+            this.CadastroClientesFornecedoresLabel7.TabIndex = 9;
+            this.CadastroClientesFornecedoresLabel7.Text = "Código Final";
+            // 
+            // CadastroClientesFornecedoresButton1
+            // 
+            this.CadastroClientesFornecedoresButton1.Location = new System.Drawing.Point(669, 37);
+            this.CadastroClientesFornecedoresButton1.Name = "CadastroClientesFornecedoresButton1";
+            this.CadastroClientesFornecedoresButton1.Size = new System.Drawing.Size(91, 23);
+            this.CadastroClientesFornecedoresButton1.TabIndex = 5;
+            this.CadastroClientesFornecedoresButton1.Text = "Novo";
+            this.CadastroClientesFornecedoresButton1.UseVisualStyleBackColor = true;
+            // 
+            // CadastroClientesFornecedoresLabel6
+            // 
+            this.CadastroClientesFornecedoresLabel6.AutoSize = true;
+            this.CadastroClientesFornecedoresLabel6.Location = new System.Drawing.Point(271, 296);
+            this.CadastroClientesFornecedoresLabel6.Name = "CadastroClientesFornecedoresLabel6";
+            this.CadastroClientesFornecedoresLabel6.Size = new System.Drawing.Size(70, 13);
+            this.CadastroClientesFornecedoresLabel6.TabIndex = 8;
+            this.CadastroClientesFornecedoresLabel6.Text = "Código Inicial";
+            // 
+            // CadastroClientesFornecedoresButton2
+            // 
+            this.CadastroClientesFornecedoresButton2.Location = new System.Drawing.Point(670, 119);
+            this.CadastroClientesFornecedoresButton2.Name = "CadastroClientesFornecedoresButton2";
+            this.CadastroClientesFornecedoresButton2.Size = new System.Drawing.Size(90, 23);
+            this.CadastroClientesFornecedoresButton2.TabIndex = 6;
+            this.CadastroClientesFornecedoresButton2.Text = "Alterar";
+            this.CadastroClientesFornecedoresButton2.UseVisualStyleBackColor = true;
+            // 
+            // cadastroClienteFornecedoresButton2
+            // 
+            this.cadastroClienteFornecedoresButton2.Location = new System.Drawing.Point(368, 6);
+            this.cadastroClienteFornecedoresButton2.Name = "cadastroClienteFornecedoresButton2";
+            this.cadastroClienteFornecedoresButton2.Size = new System.Drawing.Size(146, 23);
+            this.cadastroClienteFornecedoresButton2.TabIndex = 3;
+            this.cadastroClienteFornecedoresButton2.Text = "Relatórios";
+            this.cadastroClienteFornecedoresButton2.UseVisualStyleBackColor = true;
+            // 
+            // cadastroClienteFornecedoresLabel1
+            // 
+            this.cadastroClienteFornecedoresLabel1.AutoSize = true;
+            this.cadastroClienteFornecedoresLabel1.Location = new System.Drawing.Point(8, 3);
+            this.cadastroClienteFornecedoresLabel1.Name = "cadastroClienteFornecedoresLabel1";
+            this.cadastroClienteFornecedoresLabel1.Size = new System.Drawing.Size(177, 13);
+            this.cadastroClienteFornecedoresLabel1.TabIndex = 1;
+            this.cadastroClienteFornecedoresLabel1.Text = "Cadastro -> Clientes / Fornecedores";
+            // 
+            // cadastroClienteFornecedoresButton1
+            // 
+            this.cadastroClienteFornecedoresButton1.Location = new System.Drawing.Point(216, 6);
+            this.cadastroClienteFornecedoresButton1.Name = "cadastroClienteFornecedoresButton1";
+            this.cadastroClienteFornecedoresButton1.Size = new System.Drawing.Size(146, 23);
+            this.cadastroClienteFornecedoresButton1.TabIndex = 2;
+            this.cadastroClienteFornecedoresButton1.Text = "Consulta/Manutenção";
+            this.cadastroClienteFornecedoresButton1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
@@ -556,15 +906,6 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "Caixa / Banco -> Movimentos";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(374, 53);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 13);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "branch test";
-            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -582,6 +923,9 @@
             this.tabPage3.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.ResumeLayout(false);
+            this.CadastroClientesFornecedoresPanelConsultaManutencao.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CadastroClientesFornecedoresDataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage4.ResumeLayout(false);
@@ -648,7 +992,7 @@
         private System.Windows.Forms.TabPage tabPage11;
         private System.Windows.Forms.TabPage tabPage12;
         private System.Windows.Forms.TabPage tabPage13;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label cadastroClienteFornecedoresLabel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -661,6 +1005,39 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button CadastroClientesFornecedoresButton3;
+        private System.Windows.Forms.Button CadastroClientesFornecedoresButton2;
+        private System.Windows.Forms.Button CadastroClientesFornecedoresButton1;
+        private System.Windows.Forms.DataGridView CadastroClientesFornecedoresDataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Pessoa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CPF;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CGC;
+        private System.Windows.Forms.Button cadastroClienteFornecedoresButton2;
+        private System.Windows.Forms.Button cadastroClienteFornecedoresButton1;
+        private System.Windows.Forms.TextBox CadastroClientesFornecedoresTextBox2;
+        private System.Windows.Forms.Label CadastroClientesFornecedoresLabel7;
+        private System.Windows.Forms.Label CadastroClientesFornecedoresLabel6;
+        private System.Windows.Forms.Panel CadastroClientesFornecedoresPanelConsultaManutencao;
+        private System.Windows.Forms.Button CadastroClientesFornecedoresButton6;
+        private System.Windows.Forms.Button CadastroClientesFornecedoresButton5;
+        private System.Windows.Forms.TextBox CadastroClientesFornecedoresTextBox1;
+        private System.Windows.Forms.Button CadastroClientesFornecedoresButton4;
+        private System.Windows.Forms.Label CadastroClientesFornecedoresLabel4;
+        private System.Windows.Forms.Label CadastroClientesFornecedoresLabel5;
+        private System.Windows.Forms.Label CadastroClientesFornecedoresLabel3;
+        private System.Windows.Forms.Label CadastroClientesFornecedoresLabel2;
+        private System.Windows.Forms.TextBox CadastroClientesFornecedoresTextBox5;
+        private System.Windows.Forms.TextBox CadastroClientesFornecedoresTextBox4;
+        private System.Windows.Forms.Label CadastroClientesFornecedoresLabel9;
+        private System.Windows.Forms.Label CadastroClientesFornecedoresLabel8;
+        private System.Windows.Forms.Label CadastroClientesFornecedoresLabel1;
+        private System.Windows.Forms.TextBox CadastroClientesFornecedoresTextBox3;
+        private System.Windows.Forms.ComboBox CadastroClientesFornecedoresComboBox1;
+        private System.Windows.Forms.ComboBox CadastroClientesFornecedoresComboBox3;
+        private System.Windows.Forms.ComboBox CadastroClientesFornecedoresComboBox2;
 
 
     }
